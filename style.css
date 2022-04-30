@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: montserrat;
+}
+h1 {
+  margin: 20px 20px;
+}
+form {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+input,
+button {
+  padding: 5px;
+  font-family: montserrat;
+  margin: 0 20px;
+}
+
+#delete-first,
+#delete-last {
+  display: inline-block;
+}
+
+table {
+  margin: 20px;
+}
+
+th,
+tr {
+  height: 50px;
+  width: 300px;
+  background: steelblue;
+  margin: 20px;
+}
+th {
+  background: rgb(235, 209, 61);
+}
+
+td {
+  padding-left: 20px;
+  color: white;
+  border: 4px solid rgb(235, 209, 61);
+}
+table,
+th,
+tr {
+  border-collapse: collapse;
+  border: 4px solid rgb(235, 209, 61);
+}
